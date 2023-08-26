@@ -12,10 +12,9 @@ public class ExemploForArray {
         // a cada iteração de alunos, o indice atual a variável aluno irá obter o valor do índice
         // aluno - variável de escopo (temporária)
         
-        for(int x=1;x<=10;x++){
-            if(x % 2==0) //% operador que representa módulo de uma divisão
-                System.out.println(x);
-        }
+       for (String aluno : alunos) {
+        System.out.println("Nome do aluno: " + aluno);
+       }
         
     }
 }
